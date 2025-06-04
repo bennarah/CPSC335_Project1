@@ -1,0 +1,16 @@
+
+#  procedure sort_discs(discs):
+#     swapped = true
+
+#     while swapped:
+#         swapped = false
+
+#         for i = 0 to length(discs) - 2:
+#             if discs[i] == 'D' and discs[i+1] == 'L':
+#                 swap discs[i] and discs[i+1]
+#                 swapped = true
+
+#         for i = length(discs) - 1 down to 1:
+#             if discs[i-1] == 'D' and discs[i] == 'L':
+#                 swap discs[i-1] and discs[i]
+#                 swapped = true
