@@ -1,2 +1,18 @@
-// Bassma Ennarah
-// Project 1
+# README
+
+# Bassma Ennarah
+# Project 1
+
+This program solves the Alternating Discs Problem.
+
+It takes a list of 2n discs, alternating between light ('L') and dark ('D'),  
+and sorts them so that all light discs are on the left and all dark discs are on the right.  
+It uses only adjacent swaps and counts how many swaps are made.
+
+## How to Run
+
+1. Open the terminal.
+2. Run the file with:
+
+```bash
+python3 alternating_disc.py
