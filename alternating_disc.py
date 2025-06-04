@@ -17,3 +17,7 @@ def sort_discs(discs):
                 swapped = True
 
     return discs
+
+discs = ['L', 'D', 'L', 'D', 'D', 'L']
+sorted_discs = sort_discs(discs)
+print(sorted_discs)
