@@ -18,6 +18,6 @@ def sort_discs(discs):
 
     return discs, swap_count
 
-final_discs, swaps = sort_discs(['D', 'L', 'D', 'L'])
+final_discs, swaps = sort_discs(['L', 'D', 'L', 'D', 'L', 'D', 'L', 'D'])
 print("Final order:", final_discs)
 print("Total swaps:", swaps)
